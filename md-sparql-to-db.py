@@ -4,7 +4,7 @@
 
 # Transform to pycsw schema and insert in database
 
-# optional, store the has of the record as a column, and check before insert if hash already exists
+# optional, store the hash of the record as a column, and check before insert if hash already exists
 # id the same, hash the same -> skip
 # id the same, hash different -> overwrite
 # id-source not available -> create
